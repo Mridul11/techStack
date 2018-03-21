@@ -10,7 +10,7 @@ export default class App extends React.Component {
   render() {
     return (
           <Provider store = {createStore(reducers)}>
-            <View style={{paddingTop:30}}>
+            <View style={{paddingTop:30, flex:1}}>
               <Header headerText="Tech Stack"/>
               <LibraryList />
             </View>
